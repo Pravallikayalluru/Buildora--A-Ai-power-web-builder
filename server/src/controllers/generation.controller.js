@@ -2,6 +2,7 @@ import * as generationService from '../services/generation.service.js';
 
 export const generateCode = async (req, res, next) => {
   try {
+    console.log("Generate request reached backend");
     const { projectId } = req.params;
     const { prompt } = req.body;
 
