@@ -5,7 +5,7 @@ const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
 
-const MODEL_NAME = "gemini-3.6-flash";
+const MODEL_NAME = "gemini-3.5-flash-lite";
 
 const sleep = (ms) =>
   new Promise((resolve) => setTimeout(resolve, ms));
